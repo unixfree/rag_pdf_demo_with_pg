@@ -1,0 +1,5 @@
+# OpenAI API Key
+OPENAI_API_KEY=sk-proj-xxxx..xxxxx
+
+# PostgreSQL Connection String (using psycopg2)
+DATABASE_URL=postgresql+psycopg2://enterprisedb:enterprisedb@localhost:5444/enterprisedb
