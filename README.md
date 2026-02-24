@@ -19,11 +19,12 @@ pip install streamlit langchain langchain-openai langchain-community langchain-p
 
 1. git clone
 ```
-git clone
+git clone https://github.com/unixfree/rag_pdf_demo_with_pg.git
 ```
 
 2. 환경 변수 적용
 ```
+cd rag_pdf_demo_with_pg
 cp env .env
 vi .env
 # OpenAI API Key
