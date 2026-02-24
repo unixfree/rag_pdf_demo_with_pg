@@ -26,7 +26,7 @@ if not OPENAI_API_KEY or not DATABASE_URL:
 
 # Configure Streamlit UI
 st.set_page_config(page_title="PDF RAG Bot", page_icon="📄", layout="wide")
-st.title("📄 PDF-based RAG Chatbot (PostgreSQL + pgvector)")
+st.title("📄 PDF RAG Chatbot (EPAS + pgvector)")
 
 # 2. Vector Store initialization function
 @st.cache_resource
