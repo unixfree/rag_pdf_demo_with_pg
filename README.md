@@ -1,6 +1,7 @@
 ### rag_pdf_demo_with_pg
-PostgreSQL(EPAS) 의 pgvector 를 이용한 pdf 파일 기반 RAG 코드입니다.
-OpenAI의 text-embedding-3-small 와 gpt-4o-mini 를 사용하였습니다.
+PostgreSQL(EPAS) 의 pgvector 를 이용한 pdf 파일 기반 RAG 코드입니다. <br>
+OpenAI의 text-embedding-3-small 와 gpt-4o-mini 를 사용하였습니다. <br>
+웹 애플리케이션 프레임워크는 streamlit 을 사용하였습니다. 
 
 
 #### 테스트 방법
