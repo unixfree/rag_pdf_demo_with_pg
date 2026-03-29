@@ -45,7 +45,15 @@ streamlit run app.py
 pip install langchain-ollama
 ```
 
-2. 수행
+2. ollama 
+```
+ollama list
+ollama run gpt-oss:20b
+export OLLAMA_HOST=0.0.0.0
+ollama serve
+```
+
+3. 수행
 ```
 streamlit run app_ollama.py
 ```
