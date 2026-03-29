@@ -39,7 +39,16 @@ DATABASE_URL=postgresql+psycopg2://enterprisedb:enterprisedb@localhost:5444/ente
 streamlit run app.py
 ```
 
+#### Ollama 사용 테스트 방법
+1. python 환경 , 추가 모듈 설치
+```
+pip install langchain-ollama
+```
 
+2. 수행
+```
+streamlit run app_ollama.py
+```
 
 
 
